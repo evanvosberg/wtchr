@@ -1,0 +1,40 @@
+{
+	"name": "wtchr",
+	"title": "Wtchr",
+	"description": "Simple file/directory watcher.",
+	"version": "0.0.1",
+	"homepage": "http://github.com/evanvosberg/wtchr",
+	"author": {
+		"name": "Evan Vosberg",
+		"url": "http://github.com/evanvosberg"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/evanvosberg/wtchr.git"
+	},
+	"bugs": {
+		"url": "http://github.com/evanvosberg/wtchr/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.opensource.org/licenses/MIT"
+	}],
+	"dependencies": {
+		"underscore": "~1.4.4",
+		"minimatch": "~0.2.11",
+		"crypto": "~0.0.3"
+	},
+	"devDependencies": {
+
+	},
+	"keywords": [
+		"watcher",
+		"fs",
+		"file",
+		"directory",
+		"event",
+		"events",
+		"system"
+	],
+	"main": "./wtchr.js"
+}
